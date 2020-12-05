@@ -1,8 +1,7 @@
 def report_repair(file):
 	s= set()
 	numbers=[]
-	f = open(file, "r")
-	
+	f = open(file, "r")	
 	numbers.append(f.read())
 	list_of_numbers=numbers[0].split("\n")
 	#print(list_of_numbers)
@@ -14,9 +13,4 @@ def report_repair(file):
 				result = int(i) * (2020- int(i))
 	print(s)
 	print(result)
-	
-
-
-
-
 report_repair("input1.txt")
