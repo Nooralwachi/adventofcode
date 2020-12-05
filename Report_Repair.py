@@ -13,4 +13,4 @@ def report_repair(file):
 				result = int(i) * (2020- int(i))
 	#print(s)
 	return(result)
-report_repair("input1.txt")
+print(report_repair("input1.txt"))
